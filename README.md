@@ -48,6 +48,7 @@ int main() {
 ```
 
  2. Realizar un programa que sea capaz de calcular la longitud de un texto ingresado por teclado sin utilizar la función strlen().El máximo de caracteres del texto será de 50 caracteres.
+ 
 [Ejercicio 2](/Ejercicios/EJ02.c)
 ``` c
 #include <stdio.h>
@@ -65,6 +66,7 @@ int main()
 ```
 
  3. Realizar un programa que sea capaz de calcular la longitud de un texto ingresado por teclado usando la función strlen(). El máximo de caracteres del texto será de 50 caracteres.
+ 
 [Ejercicio 3](/Ejercicios/EJ03.c)
 ``` c
 #include <stdio.h>
@@ -87,6 +89,7 @@ int main()
 
     Dicha función recibirá el día, mes y año como tres variables numéricas diferentes. Para la impresión del mes, el programa contará con un vector de cadenas de caracteres, donde el valor del mes será la posición de su texto en el vector.
     Escribir un programa que invoque a dicha función.
+    
 [Ejercicio 4](/Ejercicios/EJ04.c)
 ``` c
 #include <stdio.h>
@@ -112,6 +115,7 @@ void print_date(int day, int month, int year)
 
  5. Realizar un programa que sea capaz de calcular el promedio aritmético (x̅) y el desvío estándar (σ) de una serie de 10 valores enteros ingresados por el usuario.
    $$\bar{x} = {1 \over X}. \sum_{i=1}^N x_i, \qquad \sigma = \sqrt{{1 \over X}.\sum_{i=1}^N (x_i-\bar{x})^2}$$
+   
 [Ejercicio 5](/Ejercicios/EJ05.c)
 ``` c
 #include <stdio.h>
@@ -140,6 +144,7 @@ int main()
 ```
 
  6. Realizar un programa que encuentre el mínimo y el máximo de un vector de 5 números. El vector debe ser previamente cargado por el usuario.
+
 [Ejercicio 6](/Ejercicios/EJ06.c)
 ``` c
 #include <stdio.h>
@@ -168,6 +173,7 @@ int main()
 ```
 
  7. Realizar un programa que permita cargar al usuario un vector de 10 números, por medio de la función Bubble_Sort() los ordene en forma creciente, y luego los imprima por pantalla. Comentar que hace cada línea de la función.
+ 
 [Ejercicio 7](/Ejercicios/EJ07.c)
 ``` c
 #include <stdio.h>
@@ -209,6 +215,7 @@ void Bubble_Sort(float vector[], int length)
 ```
 
  8. Realizar un programa que permita cargar 10 notas de alumnos, obtener el promedio, e indicar cuantas y cuáles son las notas que superan dicho promedio.
+ 
 [Ejercicio 8](/Ejercicios/EJ08.c)
 ``` c
 #include <stdio.h>
@@ -246,6 +253,7 @@ int main()
 ```
 
  9. Realizar un programa que encuentre el segundo máximo de un vector de 5 números. El vector debe ser previamente cargado por el usuario.
+ 
 [Ejercicio 9](/Ejercicios/EJ09.c)
 ``` c
 #include <stdio.h>
@@ -275,6 +283,7 @@ int main() {
 ```
 
  10. Realizar un programa que encuentre el valor más cercano al promedio de un vector de 7 números. El vector debe ser previamente cargado por el usuario.
+
 [Ejercicio 10](/Ejercicios/EJ10.c)
 ``` c
 #include <stdio.h>
@@ -321,6 +330,7 @@ int main() {
 ```
 
  11. Realizar un programa que sea capaz de imprimir un texto en forma espejo. Por ejemplo: "Otto Krause" -> "esuarK ottO".
+
 [Ejercicio 11](/Ejercicios/EJ11.c)
 ``` c
 #include <stdio.h>
