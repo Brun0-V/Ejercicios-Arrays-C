@@ -5,7 +5,6 @@
 ### Ejercicio 1
  1. Realizar un programa que, dado el valor de una resistencia, sea capaz de hallar el valor normalizado(comercial) más cercano, en base a la Norma IEC E12.
 
-
 [Ejercicio 1](/Ejercicios/EJ01.c)
 ``` c
 #include <stdio.h>
